@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="jumbotron text-center card m-1">
+     <div class="row m-4">
+        <div class="col">
+            <h1 class="m-5">Welcome to GameView!</h1>
+            <p>GameView is a website that allows you to view games and their information.</p>
+            <p>Click on the Games tab to view the games that are currently in the database.</p>
+            <p>Click on the Add Game tab to add a game to the database.</p>
+            <p>Click on the Home tab or the GameView logo to return to this page.</p>
+            <div class="mt-5">
+              <h1>Games Amount: {{ games.length }}</h1>
+            </div>
+        </div>
+      </div>
+      <div class="row m-4">
+        <div class="col text-center">
+          <h2>Recommended Games:</h2>
+          <div class="row">
+            <ng-container *ngFor="let game of rGames; let i = index">
+              <div class="col">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <div class="card-img">
+                      <img src="{{ rGames[i].image }}" alt="{{ rGames[i].title }}" class="img-fluid " (error)="setDefaultImage(rGames[i])">
+                    </div>
+                    <h5 class="card-title">Title: {{ rGames[i].title | titleCase }}</h5>
+                    <p class="card-text">Rating: {{ rGames[i].rating }}</p>
+                    <p class="card-text">Genre: {{ rGames[i].genre | titleCase }}</p>
+                    <p class="card-text">Release Date: {{ rGames[i].releaseDate }}</p>
+                    <a routerLink="/games/{{ rGames[i].id }}" class="btn btn-primary">View</a>
+                  </div>
+                </div>
+              </div>
+            </ng-container>
+          </div>
+      </div>  
+    </div>
+</div>

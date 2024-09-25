@@ -1,0 +1,3 @@
+oc_webshop_full = creates the oc_webshop database itself, you don't have to do anything manual
+
+Note: I had some problems exporting hashed passwords, it works now but if there's any problem with existing user's login it's probably a database import/export issue.

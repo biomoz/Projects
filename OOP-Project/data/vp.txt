@@ -1,0 +1,110 @@
+VP1
+Belgium
+VAT1
+3
+parc brussels
+brussels
+1
+0
+1
+0
+1
+0
+2
+230
+5
+7
+1
+1
+1
+0
+1
+bungalow
+5
+171
+6
+9
+0
+0
+1
+0
+0
+hotel
+7
+hotel brussels
+4
+1
+parc gent
+gent
+0
+1
+0
+1
+0
+0
+2
+995
+4
+8
+1
+0
+1
+0
+1
+hotel
+3
+hotel gent
+5
+1
+73
+2
+5
+1
+1
+0
+1
+0
+bungalow
+3
+parc leuven
+leuven belgium
+1
+0
+1
+0
+1
+1
+2
+765
+5
+7
+0
+1
+0
+1
+0
+hotel
+4
+hotel leuven
+5
+1
+454
+5
+7
+1
+1
+1
+1
+1
+bungalow
+3
+3
+omer celebi
+bonheiden belgium
+omail
+daniil kochetkov
+brussels belgium
+dmail
+inanc gunalp
+leuven belgium
+imail@gmail.com

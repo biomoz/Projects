@@ -1,0 +1,86 @@
+497
+omer celebi
+bonheiden belgium
+omail
+2
+73
+2
+5
+1
+1
+0
+1
+0
+bungalow
+3
+995
+4
+8
+1
+0
+1
+0
+1
+hotel
+3
+hotel1
+5
+1
+1
+0
+1
+0
+582
+omer celebi
+bonheiden belgium
+omail
+2
+171
+6
+9
+0
+0
+1
+0
+0
+hotel
+7
+hotel2
+4
+1
+230
+5
+7
+1
+1
+1
+0
+1
+bungalow
+5
+0
+1
+0
+0
+111
+inanc gunalp
+leuven belgium
+imail@gmail.com
+1
+765
+5
+7
+0
+1
+0
+1
+0
+hotel
+4
+hotel leuven
+5
+1
+1
+0
+1
+0

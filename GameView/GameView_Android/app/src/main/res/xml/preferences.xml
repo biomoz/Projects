@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/user_details">
+    <EditTextPreference
+        android:key="username"
+        android:title="@string/username"
+        android:summary="@string/username_prompt"
+        android:defaultValue="@string/username" />
+    <ListPreference
+        android:key="language_preference"
+        android:title="@string/language_preference_title"
+        android:summary="@string/language_preference_summary"
+        android:entries="@array/language_options"
+        android:entryValues="@array/language_values"
+        android:defaultValue="en" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/appearance">
+        <ListPreference
+            android:key="app_color_pref"
+            android:title="@string/app_color"
+            android:summary="@string/app_color_prompt"
+            android:entries="@array/app_color_entries"
+            android:entryValues="@array/app_color_values"
+            android:defaultValue="@color/white" />
+    </PreferenceCategory>
+</PreferenceScreen>

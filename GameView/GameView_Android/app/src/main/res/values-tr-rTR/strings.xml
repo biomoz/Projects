@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GameView</string>
+    <string name="title_home">Ev</string>
+    <string name="title_dashboard">Oyunlar</string>
+    <string name="title_notifications">Ekle</string>
+    <string name="game_title">Oyun Adı</string>
+    <string name="game_genre">Oyun Türü</string>
+    <string name="game_score">Oyun Skoru</string>
+    <string name="game_release_date">"Oyun Çıkış Tarihi "</string>
+    <string name="game_details">Oyun Detayları</string>
+    <string name="add">Ekle</string>
+    <string name="add_game">Oyun Ekle</string>
+    <string name="no_data">Veri Yok</string>
+    <string name="update">Güncelle</string>
+    <string name="cancel">İptal</string>
+    <string name="delete">Sil</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="gv_description">Oyunlarınız için incelemenizi yazabileceğiniz ve saklayabileceğiniz GameView\'e hoş geldiniz. İncelemelerinizi istediğiniz zaman ekleyebilir, silebilir veya güncelleyebilirsiniz. Aşağıdaki düğmeden incelemelerinizi kontrol edebilirsiniz:</string>
+    <string name="settings_title">Ayarlar</string>
+    <string name="language_preference_title">Dil Tercihi</string>
+    <string name="language_preference_summary">Tercih ettiğiniz dili seçin:</string>
+    <string name="language_english">İngilizce</string>
+    <string name="language_turkish">Türkçe</string>
+    <string name="username_prompt">Kullanıcı adınızı girin</string>
+    <string name="app_color">Uygulama Rengi</string>
+    <string name="app_color_prompt">Uygulama için bir renk seçin</string>
+    <string name="user_details">Kullanıcı Ayrıntıları</string>
+    <string name="appearance">Görünüm</string>
+    <string name="games">Oyunlar</string>
+</resources>

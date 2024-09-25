@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Omete | Projects</title>
+    <link href="css/reset.css" rel="stylesheet"/>
+    <link href="css/style_project.css" rel="stylesheet" />
+    <link rel = "icon" href ="img/omete_logo_c.png" type = "image/x-icon">
+    <script src="/crossfade-slide-photo/jquery-3.6.0.min.js"></script>
+    <script src="/crossfade-slide-photo/slideshow.js"></script>
+    <script>
+        $(document).ready(function () {
+
+        $('.slideshow').slideshowPlugin({
+        // Parameters
+        effect: 'sliding',
+        slideSpeed: 800,
+        ratio: "keep",
+        });
+
+        $('.slideshow-2').slideshowPlugin({
+        effect: 'fade',
+        ratio: "keep",
+        });
+
+        // Typing Text
+        var content = $('.copy-title').text();
+
+        var ele = '<span>' + content.split('').join('</span><span>') + '</span>';
+
+        $(ele).hide().appendTo('.main-title').each(function (i) {
+        $(this).delay(100 * i).css({
+            display: 'inline',
+            opacity: 0
+        }).animate({
+            opacity: 1
+        }, 100);
+        });
+        // End Typing text
+
+        $("#btn_w").click(function () {
+              $(".lock").css("visibility", "hidden");
+              $('#btn_w').removeClass('btn2').addClass('btn2_active');
+              $(".key").css("visibility", "visible");
+              $('#btn_a').removeClass('btn2_active').addClass('btn2');
+          });
+        $("#btn_a").click(function () {
+              $(".lock").css("visibility", "visible");
+              $('#btn_w').removeClass('btn2_active').addClass('btn2');
+              $(".key").css("visibility", "hidden");
+              $('#btn_a').removeClass('btn2').addClass('btn2_active');
+          });
+        });
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><img class="logo" src="img/omete_logo.jpg" alt="omete logo"/><a href="index.html">Home</a></li>
+                <li><a href="#" class="active">Projects</a>
+                    <ul>
+					    <li><a href="project_page.html" class="active">LockCent</a></li>
+				    </ul>
+                </li>
+                <li><a href="cv_page.html">About Me</a></li>
+                <li class="right"><a href="contact_page.html">Contact Me</a></li>
+            </ul>
+        </nav>
+        
+        <div class="content_project">
+            <div class="card">
+                <img id="logo_w" src="/img/lockcent_logo_w.png" alt="logo_w"> 
+                <h1>LockCent</h1>
+            </div> 
+            <div class="card_m2">
+                <p>My name is Omer Celebi and I'm a first year student in the ICT section of Thomas More University. This is my project LockCent. LockCent is a security app/website that stores your passwords and notes with encryption so that you can access them from anywhere without worrying about security.
+                  If you want to learn more about LockCent, you can visit our site by clicking <a href="https://lynxdev.000webhostapp.com/LockCent.html">here</a>.
+                </p>
+          </div> 
+            <div class="card_m">
+              <input type="button" id="btn_w" class="btn2_active" value="Website">
+              <input type="button" id="btn_a" class="btn2" value="App">
+            </div>
+            <div class="key">
+            <div class="slideshow">
+
+                <div class="slides-box">
+              
+                  <!-- Slides -->
+                  <div class="slide">
+                    <p class="title">Home Page</p>
+                    <img class="img_slide" src="/img/lockcent_home.png" alt="image" title="image">
+                  </div>
+              
+                  <div class="slide">
+                    <p class="title">Login Page</p>
+                    <img class="img_slide" src="/img/lockcent_login.png" alt="image" title="image">
+                  </div>
+              
+                  <div class="slide">
+                    <p class="title">Register Page</p>
+                    <img class="img_slide" src="/img/lockcent_register.png" alt="image" title="image">
+                  </div>
+
+                  <div class="slide">
+                    <p class="title">About Us Page</p>
+                    <img class="img_slide" src="/img/lockcent_aboutus.png" alt="image" title="image">
+                  </div>
+
+                  <div class="slide">
+                    <p class="title">User Home Page</p>
+                    <img class="img_slide" src="/img/lockcent_user_home.png" alt="image" title="image">
+                  </div>
+
+                  <div class="slide">
+                    <p class="title">Passwords Page</p>
+                    <img class="img_slide" src="/img/lockcent_user_passwords.png" alt="image" title="image">
+                  </div>
+              
+                  <div class="slide">
+                    <p class="title">Notes Page</p>
+                    <img class="img_slide" src="/img/lockcent_user_notes.png" alt="image" title="image">
+                  </div>
+
+                  <div class="slide">
+                    <p class="title">Settings Page</p>
+                    <img class="img_slide" src="/img/lockcent_user_settings.png" alt="image" title="image">
+                  </div>
+              
+                </div>
+              
+                <!-- Nav buttons -->
+                <div class="slideshow-buttons">
+              
+                  <div class="prev-btn">&larr;</div>
+                  <div class="next-btn">&rarr;</div>
+              
+                </div>
+              
+              </div> 
+             
+                <div class="container_4">
+                  <h3>Home Page:</h3>
+                  <p>
+                    Home page is the default page when user enters the site. It explains the main concept and summary of LockCent. It also has a nagivation bar to go to the other pages.
+                  </p>
+                  
+              </div>
+                <div class="container_4">
+                  <h3>Home Page:</h3>
+                  <p>
+                    Home page is the default page when user enters the site. It explains the main concept and summary of LockCent. It also has a nagivation bar to go to the other pages.
+                  </p>
+                  <h3>Login Page:</h3>
+                  <p>     
+                  Login page is where you enter your username and password to access to the user interface. 
+                  </p>
+                  <h3>Register Page:</h3>
+                  <p>
+                    Register page is where you enter your username email and password to create a user By doing this you register your user to the users database.
+                    </p>
+                  <h3>Settings Page:</h3>
+                  <p>
+                    Settings page is where you can change your account's password or remove your account. You can access this page by using the dropdown menu.  
+                  </p>
+                </div>
+                <div class="container_5">
+                  <h3>Passwords Page:</h3>
+                  <p>
+                    Passwords page is where you can view and modify your passwords. You can view your passwords through the passwords table. You can also add new passwords.
+                    </p>
+                </div>
+                <div class="container_6">
+                  <h3>Notes Page:</h3>
+                  <p>
+                    Notes page is where you can view and modify your notes. You can view and update your passwords through the notes textarea.
+                    </p>
+                </div>
+                <div class="container_7">
+                  <h3>User Home Page:</h3>
+                  <p>
+                    User Home page is where you can enter after you login to your account. From here you can navigate to passwords, notes and settings pages. You can also log out from your account using the dropdown menu's logout option.
+                    </p>
+                </div>
+                <div class="container_8">
+                  <h3>About Us Page:</h3>
+                  <p>
+                    About Us page is where you can learn about how we managed our project schedule. You can view which parts where done by which person that is in our project group.
+                   </p>
+                </div>
+
+            </div>
+            <div class="lock">
+              <div id="lock"></div>
+              <div class="row">
+                
+                <div class="container">
+                <h3>Home Page:</h3>
+                <p>Home page is the default page when user enters the site. It explains the main concept and summary of LockCent. It also has a nagivation bar to go to the other pages.</p>
+                 </div>
+              
+                <div class="slideshow-2">
+
+                  <div class="slides-box">
+                
+                    <!-- Slides -->
+                    <div class="slide">
+                      <p class="title">Login Page</p>
+                      <img class="img_slide" src="/img/lockcent_app_login.png" alt="image" title="image">
+                    </div>
+                
+                    <div class="slide">
+                      <p class="title">Register Page</p>
+                      <img class="img_slide" src="/img/lockcent_app_register.png" alt="image" title="image">
+                    </div>
+                
+                    <div class="slide">
+                      <p class="title">Home Page</p>
+                      <img class="img_slide" src="/img/lockcent_app_home.png" alt="image" title="image">
+                    </div>
+                    
+                    <div class="slide">
+                      <p class="title">Passwords Page</p>
+                      <img class="img_slide" src="/img//lockcent_app_passwords.png" alt="image" title="image">
+                    </div>
+
+                    <div class="slide">
+                      <p class="title">Notes Page</p>
+                      <img class="img_slide" src="/img/lockcent_app_notes.png" alt="image" title="image">
+                    </div>
+
+                    <div class="slide">
+                      <p class="title">Settings Page</p>
+                      <img class="img_slide" src="/img/lockcent_app_settings.png" alt="image" title="image">
+                    </div>
+                
+                  </div>
+                  <div class="slideshow-buttons">
+                
+                    <div class="prev-btn">&larr;</div>
+                    <div class="next-btn">&rarr;</div>
+                
+                  </div>
+              
+              </div> 
+
+              <div class="container_2">
+                <h3>Register Page:</h3>
+                <p>Register page is where you get directed to our website to register your user. The registration can only be done in the website.
+                </p>
+                </div>
+              </div>
+              <div class="container_3">
+                <div class="container_3_1">
+                  <h3>Login Page:</h3>
+                  <p> Login page is where you enter your username and password to access to the user interface.</p>
+                </div>
+                <div class="container_c">
+                  <div class="container_3_1">
+                    <h3>Passwords Page:</h3>
+                    <p>Passwords page is where you can view your passwords. You can change pages by using the buttons.
+                    </p>
+                  </div>
+                  <div class="container_3_1">
+                    <h3>Settings Page:</h3>
+                    <p>Settings page is where you can change your account's saving location. You can change it to database or local. You can erase your notes or passwords from here. You can also choose whether you want to enable notes page or not.
+                    </p>
+                  </div>
+                </div>
+                <div class="container_3_1">
+                  <h3>Notes Page:</h3>
+                  <p>Notes page is where you can view and modify your notes. You can view and update your passwords through the notes textarea.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card_m3">
+              <h2>Software Development</h2>
+            </div> 
+            <div class="column">
+            <div class="row_m">
+              <div class="box">
+                <h2>Website</h2>
+              </div> 
+              <div class="box">
+                <h2>App</h2>
+              </div> 
+              <div class="box">
+                <h2>Database</h2>
+              </div> 
+            </div>
+            <div class="row_m">
+              <div class="box_s">
+                <div class="box_o">
+                <h3>HTML</h3>
+                </div>
+                <div class="box_o">
+                <h3>CSS</h3>
+                </div>
+                <div class="box_o">
+                <h3>PHP</h3>
+                </div>
+                <div class="box_o">
+                <h3>JavaScript</h3>
+                </div>
+                <div class="box_o">
+                <h3>Bootstrap</h3>
+                </div>
+                <div class="box_y">
+                <h3>Code by Omer Celebi</h3>
+                </div>
+              </div> 
+              <div class="box_s">
+                <div class="box_o">
+                  <h3>C#</h3>
+                  </div>
+                  <div class="box_o">
+                  <h3>.Net Framework</h3>
+                  </div>
+                  <div class="box_y">
+                  <h3>Code by Daniil Kochetkov</h3>
+                  </div>
+              </div> 
+              <div class="box_s">
+                <div class="box_o">
+                  <h3>MySQL</h3>
+                  </div>
+                  <div class="box_o">
+                  <h3>WebSite DB Connection Framework: PDO</h3>
+                  </div>
+                  <div class="box_o">
+                  <h3>Application DB Connection Frameworks: DataBuilder</h3>
+                  </div>
+              </div> 
+              </div>   
+              </div>
+        </div>
+        <footer>
+            <p>Copyright © Thomas More Mechelen-Antwerp vzw - Campus De Nayer - Professional bachelor electronics-ict - 2021</p>
+        </footer>
+      </div>
+    </body>
+
+</html>

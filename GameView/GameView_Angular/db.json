@@ -1,0 +1,75 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "games": [
+    {
+      "id": 1,
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "genre": "Action-adventure",
+      "rating": 4.9,
+      "releaseDate": "March 3, 2017",
+      "description": "The player controls Link in a large, open world filled with varied enemies, puzzles, and quests. The game was designed to be less linear than previous Zelda games, and allows the player more freedom to explore the world in any order they wish.",
+      "image": "https://cdn02.plentymarkets.com/qozbgypaugq8/item/images/1613/full/PSTR-ZELDA005.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Last of Us Part II",
+      "genre": "Action-adventure",
+      "rating": 4.8,
+      "releaseDate": "June 19, 2020",
+      "description": "The game follows Ellie, a teenage girl who must navigate a post-apocalyptic world filled with hostile human and infected enemies. The game features a mix of exploration, puzzle-solving, and combat gameplay, and includes a branching story with multiple endings.",
+      "image": "https://image.api.playstation.com/vulcan/img/rnd/202010/2618/w48z6bzefZPrRcJHc7L8SO66.png"
+    },
+    {
+      "id": 3,
+      "title": "Super Mario Odyssey",
+      "genre": "Platformer",
+      "rating": 4.7,
+      "releaseDate": "October 27, 2017",
+      "description": "The game follows Mario as he travels across various worlds, collecting power moons and trying to save Princess Peach from Bowser. The game features new gameplay mechanics such as capturing enemies with Mario's hat and using them to solve puzzles.",
+      "image": "https://m.media-amazon.com/images/I/71QevE1u3xL.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Red Dead Redemption 2",
+      "genre": "Action-adventure",
+      "rating": 4.8,
+      "releaseDate": "October 26, 2018",
+      "description": "The game is set in the Old West and follows the story of outlaw Arthur Morgan, a member of the Van der Linde gang. The game features a mix of open-world exploration, mission-based gameplay, and online multiplayer.",
+      "image": "https://assets.vg247.com/current//2018/05/red_dead_redemption_2_cover_art_1.jpg"
+    },
+    {
+      "id": 5,
+      "title": "God of War",
+      "genre": "Action-adventure",
+      "rating": 4.7,
+      "releaseDate": "April 20, 2018",
+      "description": "The game follows Kratos, a former Greek God, as he travels to the Norse realm with his son Atreus. The game features a mix of exploration, puzzle-solving, and combat gameplay, and includes a single-shot camera system that follows the player throughout the game.",
+      "image": "https://media.moddb.com/images/games/1/80/79406/gow_boxart.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Hollow Knight",
+      "description": "Hollow Knight is a 2017 Metroidvania action-adventure video game developed and published by Team Cherry, and was released for Microsoft Windows, macOS, and Linux in 2017, and for the Nintendo Switch, PlayStation 4, and Xbox One in 2018. Development was partially funded through a Kickstarter crowdfunding campaign, raising over A$ 57,000 by the end of 2014.",
+      "rating": 10,
+      "image": "https://images.igdb.com/igdb/image/upload/t_original/co1rgi.webp",
+      "releaseDate": "February 24, 2017",
+      "genre": "Metroidvania"
+    }
+  ]
+}

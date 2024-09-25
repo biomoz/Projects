@@ -1,0 +1,2 @@
+Error logged: 2023-12-12 20:01:03 - [ 8 ]: session_start(): Ignoring session_start() because a session is already active in file C:\xampp\htdocs
+

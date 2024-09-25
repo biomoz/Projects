@@ -1,0 +1,72 @@
+LockCent
+
+LockCent is an application that stores user's passwords and notes in a database and by using the LockCent website or app you can view and modify your data. 
+The application itself uses custom encryption that makes sending data secure. Also we are using a free webhost that is using HTTPS that makes the conncetion itself secure.
+
+Website:
+
+Home Page:
+Home page is the default page when user enters the site. It explains the main concept and summary of LockCent. It also has a nagivation bar to go to the other pages.
+
+Login Page:
+Login page is where you enter your username and password to access to the user interface. 
+
+Register Page:
+Register page is where you enter your username email and password to create a user By doing this you register your user to the users database.
+
+About Us Page:
+About Us page is where you can learn about how we managed our project schedule. You can view which parts where done by which person that is in our project group.
+
+User Home Page:
+User Home page is where you can enter after you login to your account. From here you can navigate to passwords, notes and settings pages. You can also log out from your account using the dropdown menu's logout option.
+
+Passwords Page:
+Passwords page is where you can view and modify your passwords. You can view your passwords through the passwords table. You can also add new passwords.
+
+Notes Page:
+Notes page is where you can view and modify your notes. You can view and update your passwords through the notes textarea.
+
+Settings Page:
+Settings page is where you can change your account's password or remove your account. You can access this page by using the dropdown menu.
+
+App:
+
+Home Page:
+Home page is the default page when user logs in. From this page you can add new passwords or delete them. It also has a nagivation bar to go to the other pages.
+
+Login Page:
+Login page is where you enter your username and password to access to the user interface. 
+
+Register Page:
+Register page is where you get directed to our website to register your user. The registration can only be done in the website.
+
+Passwords Page:
+Passwords page is where you can view your passwords. You can change pages by using the buttons.
+
+Notes Page:
+Notes page is where you can view and modify your notes. You can view and update your passwords through the notes textarea.
+
+Settings Page:
+Settings page is where you can change your account's saving location. You can change it to database or local. You can erase your notes or passwords from here. You can also choose whether you want to enable notes page or not.
+
+Software Development:
+
+Website:
+-HTML
+-CSS
+-JavaScript
+-PHP
+-Bootstrap
+-DB Connection Framework: PDO (WebSite)
+Code by Omer Celebi
+
+Application
+-C#
+-.Net Framework
+-DB Connection Frameworks: DataBuilder (Application)
+
+Code by Daniil Kochetkov
+
+DataBase:
+-MySQL
+

@@ -1,0 +1,209 @@
+body{
+	font-family: Courier;
+	background-image: url("pixels.jpg");
+	background-repeat: repeat;
+  }
+
+h1{
+	color: orangered;
+	font-size: 175%;
+	padding: 10px;
+	margin: 10px;
+	font-weight: bold;
+}
+h2 {
+	color: orangered;
+	font-size: 150%;
+	padding: 10px;
+	margin: 10px;
+	font-weight: bold;
+}
+h3 {
+	font-size: 125%;
+	padding: 10px;
+	margin: 10px;
+	font-weight: bold;
+}
+p {
+	padding: 10px;
+	margin: 10px;
+}
+
+#cv ul {
+	margin: 10px;
+}
+
+#cv li {
+	padding: 5px;
+	margin: 5px;
+}
+
+label {
+	padding: 10px;
+	margin: 10px;
+}
+#myform div {
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+  }
+#val_message{
+	margin: 10px;
+	color: orangered;
+}
+#btn1 {
+	transition-duration: 0.4s;
+	border-radius: 5px;
+	background-color: orangered;
+	border: 1px solid black;
+  }
+  
+#btn1:hover {
+	background-color:yellow;
+	color: orangered;
+	border: 1px solid orangered;
+  }
+
+#message{
+	border-radius:10px;
+	border-color: orangered;
+	border-width: 2px;
+	resize: none;
+}
+#email, #name{
+	border-radius: 5px;
+	border-color: orangered;
+}
+
+.wrapper{
+	min-width:700px;
+	max-width:1200px;
+	margin:0px auto 0px auto;
+	background-image: url("orange_hexagon.jpg");
+	background-repeat: repeat;
+}
+
+.logo{
+	width: 30px;
+    display: block;
+    border-radius: 50%;
+    float: left;
+    padding: 12px 15px;
+}
+
+nav {
+	background-color: orange;
+    border:1px solid black ;
+}
+nav li {
+	float: left;
+	width: 130px;						
+	border-right: 1px solid black;
+}
+
+nav ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav>ul>li:last-child {					
+	border-right: none;
+    border-left: 1px solid black;
+	float: right;
+	width: auto;
+}
+
+nav a {
+	display:block;
+	color: black;
+	text-decoration: none;
+	text-align:center;
+	padding: 20px 15px;
+}
+
+.active {
+	background-color: orangered;
+}
+
+nav a:hover:not(.active) {
+	background-color: orangered;
+	color: black;
+}
+
+nav li ul {
+	position: absolute;
+	width:150px;
+	display: none;
+}
+nav li li {
+	background-color: orange;
+    border: 1px solid black;
+    border-top: none;
+
+}
+
+nav li:hover ul {
+	display: block;
+}
+
+.content {
+	padding: 20px;
+}
+
+.highlight {
+    color: orangered;
+}
+
+.img_main{
+	float: left;
+	width: 20%;
+	margin: 10px;
+	margin-right: 20px;
+	border:5px solid orangered;
+}
+.img_small{
+	float: left;
+	width: 10%;
+	margin: 10px;
+	margin-right: 20px;
+}
+
+.card {
+	background-color: white;
+	border-radius:20px;
+	padding:1%;
+	margin: 2% 0;
+	width: 98%;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+}
+
+.card_2 {
+	flex: 1;
+	background-color: white;
+	border-radius:20px;
+	padding:1%;
+	margin-right: 2%;
+	width: 49%;
+	order: 1;
+}
+.card_3 {
+	flex: 1;
+	background-color: white;
+	border-radius:20px;
+	padding:1%;
+	width: 49%;
+	order: 2;
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+	border-top:2px solid #333;
+	margin-top: 20px;
+}
+  

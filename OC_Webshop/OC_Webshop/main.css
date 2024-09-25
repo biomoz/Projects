@@ -1,0 +1,151 @@
+
+/* Global styles */
+
+
+table, th, td {
+    border: 1px solid black;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 800px;
+    background-image: url('background.jpg');
+    background-repeat: repeat;
+}
+
+/* Header styles */
+header {
+    background-color: seagreen;
+    padding: 20px;
+    flex-shrink: 0;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid #333;
+    background-color: yellow;
+}
+
+nav ul li:first-child {
+    border-left: 1px solid #333;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li:hover {
+    background-color: skyblue;
+}
+
+.active {
+    background-color: skyblue;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.search {
+    background-color: yellow;
+    min-width: 270px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.answer {
+    background-color: skyblue;
+    min-width: 270px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.error {
+    display: none;
+    background-color: red;
+    min-width: 270px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.edit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: skyblue;
+}
+
+.edit img {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: skyblue;
+}
+
+.product-card img {
+    max-height: 300px;
+    max-width: 300px;
+    padding: 10px;
+}
+
+.product-card p {
+    padding: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color:seagreen;
+    padding: 20px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+

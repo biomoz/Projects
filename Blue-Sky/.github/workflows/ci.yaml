@@ -1,0 +1,25 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    name: Run Tests
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Install Dependencies
+        run: |
+          npm ci
+          composer install
+      - name: Check Formatting
+        run: |
+          php artisan format --test
+      - name: Try Caching Routes
+        run: |
+          php artisan route:cache

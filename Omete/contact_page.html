@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Omete | Contact Me</title>
+    <link href="css/reset.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel ="icon" href ="img/omete_logo_c.png" type ="image/x-icon">
+    <script>
+        function validate(){
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var message = document.getElementById("message").value;
+        var val_message = document.getElementById("val_message");
+        
+        
+        var text;
+        if(name.length < 3){
+            text = "Please Enter valid Name";
+            val_message.innerHTML = text;
+            return false;
+        }
+        if(email.indexOf("@") < 0 || email.length < 6 || email.indexOf(".") < 0){
+            text = "Please Enter valid Email";
+            val_message.innerHTML = text;
+            return false;
+        }
+        if(message.length >= 200){
+            text = "Please Enter Less Than 200 Characters";
+            val_message.innerHTML = text;
+            return false;
+        }
+        val_message.innerHTML = "Submitted succesfuly."
+        return true;
+        }
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><img class="logo" src="img/omete_logo.jpg" alt="omete logo"/><a href="index.html">Home</a></li>
+                <li><a href="#">Projects</a>
+                    <ul>
+					    <li><a href="project_page.html">LockCent</a></li>
+				    </ul>
+                </li>
+                <li><a href="cv_page.html">About Me</a></li>
+                <li class="right"><a href="#" class="active">Contact Me</a></li>
+            </ul>
+        </nav>
+        
+        <div class="content">
+                <div class="card">
+                        <h1>Contact Me</h1>
+                        <form id="myform" method="post"  enctype="text/plain" action="mailto:celebi3715@gmail.com?subject=Omete-Contact" onsubmit="return validate();">
+                            <label for="name">Name:</label>
+                            <div class="input_field">
+                                <input type="text" placeholder="Name" id="name" name="name" size="25">
+                            </div>
+                            <label for="email">Email:</label>
+                            <div class="input_field">
+                                <input type="text" placeholder="Email" id="email" name="email" size="25">
+                            </div>
+                            <label for="message">Message:</label>
+                            <div class="input_field">
+                                <textarea placeholder="Message" id="message" name="message" rows="7" cols="50"></textarea>
+                            </div>
+                            <div class="btn">
+                                <input id="btn1" type="submit" value="Send">
+                            </div>
+                            <div id="val_message"></div>
+                            </form>
+                </div>
+        </div>
+        
+        <footer>
+            <p>Copyright © Thomas More Mechelen-Antwerp vzw - Campus De Nayer - Professional bachelor electronics-ict - 2021</p>
+        </footer>
+    </div>
+    </body>
+
+</html>

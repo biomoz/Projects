@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">GameView</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Games</string>
+    <string name="title_notifications">Add</string>
+    <string name="game_title">Game Title</string>
+    <string name="game_genre">Game Genre</string>
+    <string name="game_score">Game Score</string>
+    <string name="game_release_date">Game Release Date</string>
+    <string name="game_details">Game Details</string>
+    <string name="add">Add</string>
+    <string name="add_game">Add Game</string>
+    <string name="no_data">No Data.</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="username">Username</string>
+    <string name="gv_description">Welcome to GameView where you can write and store your review for your games. You can add delete or update your reviews whenever you like. You can check you reviews from the button below:</string>
+    <string name="settings_title">Settings</string>
+    <string-array name="app_color_entries">
+        <item>White</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Purple</item>
+        <item>Teal</item>
+    </string-array>
+    <string-array name="app_color_values">
+        <item>#FFFFFFFF</item>
+        <item>#FF0000</item>
+        <item>#00FF00</item>
+        <item>#0000FF</item>
+        <item>#FFBB86FC</item>
+        <item>#FF018786</item>
+    </string-array>
+    <string name="language_preference_title">Language Preference</string>
+    <string name="language_preference_summary">Select your preferred language:</string>
+    <string name="language_english">English</string>
+    <string name="language_turkish">Turkish</string>
+    <string name="username_prompt">Enter your username</string>
+    <string name="app_color">App Color</string>
+    <string name="app_color_prompt">Choose a color for the app</string>
+    <string name="user_details">User Details</string>
+    <string name="appearance">Appearance</string>
+    <string name="games">Games</string>
+    <string-array name="language_options">
+        <item>@string/language_english</item>
+        <item>@string/language_turkish</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>en</item>
+        <item>tr</item>
+    </string-array>
+</resources>

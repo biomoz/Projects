@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="jumbotron text-center card m-1">
+        <h1>Title: {{ game.title | titleCase }}</h1>
+        <div class="row">
+            <div class="col m-4">
+                <img src="{{ game.image }}" alt="{{ game.title }}" class="img-fluid" (error)="setDefaultImage(game)" />
+            </div>
+            <div class="col m-4">
+                <p>Rating: {{ game.rating }}</p>
+                <p>Genre: {{ game.genre | titleCase }}</p>
+                <p>Release Date: {{ game.releaseDate }}</p>
+                <p>Description: {{ game.description }}</p>
+                <div class= "btn-group">   
+                    <a routerLink="/games" class="btn btn-primary">Back</a>
+                    <a routerLink="/games/{{ game.id }}/edit" class="btn btn-success">Edit</a>
+                    <button class="btn btn-danger" (click)="deleteGame(game.id)">Delete</button>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
